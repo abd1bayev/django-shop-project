@@ -3,11 +3,12 @@ from .views import *
 
 
 urlpatterns = [
-    path('index', index, name='index'),
+    path('index/', index, name='index'),
     
-    path('error', error),
-    path('about', about),
-    path('address', address),
-    path('alerts', alerts),
+    path('cart/', cart),
+    path('checkout/', checkout),
+    path('contact/', contact),
+    path('detail/', detail),
+    path('shop/', shop),
     
 ]

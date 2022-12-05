@@ -4,17 +4,20 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'index.html')
     
-def error(request):
-    return render(request, '404.html')
+def cart(request):
+    return render(request, 'cart.html')
 
-def about(request):
-    return render(request, 'about.html')
+def checkout(request):
+    return render(request, 'checkout.html')
 
-def address(request):
-    return render(request, 'address.html')
+def contact(request):
+    return render(request, 'contact.html')
 
-def alerts(request):
-    return render(request, 'alerts.html')
+def detail(request):
+    return render(request, 'detail.html')
+
+def shop(request):
+    return render(request, 'shop.html')
 
 
 
